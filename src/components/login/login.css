@@ -1,0 +1,76 @@
+.login {
+  height: 100%;
+  background-color: #000033;
+  color: #fff;
+}
+
+.login nav {
+  padding: 5px;
+  height: 6%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000033;
+  color: #fff;
+}
+
+.login .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.login .body .avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin: 5% auto;
+}
+
+.login form .form-item {
+  border-bottom: 1px solid white;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+.login input {
+  width: 80%;
+  outline: none;
+  border: none;
+  margin: 2px 10px;
+  height: 30px;
+  background: #ffffff50;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  transition: 0.2s all ease;
+  border-radius: 2px;
+}
+
+.login input:focus {
+  background: #000033;
+  font-size: 1.2em;
+  box-shadow: 0 0 10px #ffffff50;
+}
+
+.login button {
+  width: 80%;
+  background: gray;
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 50px;
+  margin: 20px auto;
+  transition: 0.2s all ease;
+  box-sizing: border-box;
+}
+
+.login button:focus {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.login .forget {
+  margin-left: auto;
+  margin-right: 20px;
+}

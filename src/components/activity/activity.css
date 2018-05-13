@@ -1,0 +1,41 @@
+.activity {
+  width: 100%;
+  height: 100%;
+}
+
+.activity header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #990033;
+  color: #fff;
+}
+
+.activity .date {
+  font-size: 1.5em;
+}
+
+.activity .steps {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.activity .info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.activity .info>div {
+  margin: 5px 0;
+  border-right: 1px solid lightgray;
+  flex: 1;
+}
+
+.activity .info .data {
+  color: black;
+  font-size: 2em;
+}

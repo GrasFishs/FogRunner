@@ -1,0 +1,19 @@
+.navbar {
+  position: fixed;
+  height: 50px;
+  border-top: 1px solid lightgray;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+}
+
+.navbar .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}

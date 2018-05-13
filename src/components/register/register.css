@@ -1,0 +1,90 @@
+.register {
+  height: 100%;
+  position: relative;
+}
+
+.register nav {
+  padding: 5px;
+  height: 6%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000033;
+  color: #fff;
+}
+
+.register .body {
+  display: flex;
+  flex-direction: column;
+}
+
+.register .body .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.register .top .camera {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: lightgray;
+}
+
+.register input {
+  flex: 1;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  box-sizing: border-box;
+  transition: 0.2s ease all;
+}
+
+.register input:focus {
+  background: lightgray;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.register .center {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.register .bottom form .form-item {
+  border-bottom: 1px solid white;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+.register footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+}
+
+.register footer button {
+  width: 150px;
+  background: #000033;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 50px;
+  transition: 0.2s all ease;
+  box-sizing: border-box;
+}
+
+.register footer button:focus {
+  background: transparent;
+  color: #000033;
+  font-size: 1.5em;
+  border: 2px solid #000033;
+}
