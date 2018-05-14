@@ -5,6 +5,7 @@ import Register from './components/register/Register';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Home from "./components/home/Home";
 import Activity from "./components/activity/Activity";
+import Process from './components/processs/Process';
 class App extends React.Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class App extends React.Component {
         }}>
           <Route path="/home" component={Home}/>
           <Route path="/login" component={Login}></Route>
+          <Route path="/process" component={Process}></Route>
           <Route path="/register" component={Register}></Route>
           <Route path="/activity" component={Activity}></Route>
           <Nav/>

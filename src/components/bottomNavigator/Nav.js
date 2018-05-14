@@ -9,7 +9,7 @@ const navTabs = [
     text: '运动'
   }, {
     icon: 'bar-chart',
-    routeTo: '/register',
+    routeTo: '/process',
     text: '进程'
   }, {
     icon: 'calendar-o',
