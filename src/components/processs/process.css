@@ -1,0 +1,60 @@
+.process {
+  background: #000033;
+  height: 100%;
+}
+
+.process nav {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px 0;
+}
+
+.process .stat,
+.process .rank,
+.process .distance {
+  background: white;
+  display: flex;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.process .stat .left {
+  flex: 2;
+}
+
+.process .stat .right {
+  flex: 1;
+  margin: 20px 0;
+  padding: 0 10px;
+  border-left: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.process .right .steps {
+  font-size: 2em;
+  font-weight: 700;
+  color: black;
+}
+
+.process .distance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.process .distance .data {
+  display: flex;
+}
+
+.process .distance .thisMonth {
+  margin-right: 20px;
+}
+
+.process .distance .data .steps {
+  font-size: 3em;
+  font-weight: 700;
+  color: black;
+}
