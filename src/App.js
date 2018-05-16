@@ -9,6 +9,7 @@ import Process from './components/processs/Process';
 import FogMap from './components/FogMap';
 import Setting from './components/setting/Setting';
 import Award from "./components/award/Award";
+import User from "./components/user/User";
 class App extends React.Component {
   render() {
     return (
@@ -23,7 +24,8 @@ class App extends React.Component {
           <Route path="/register" component={Register}/>
           <Route path="/activity" component={Activity}/>
           <Route path="/sport" component={FogMap}/>
-          <Route path="/settings" component={Setting}/>
+          <Route path="/setting" component={Setting}/>
+          <Route path="/user" component={User}/>
           <Route path="/award" component={Award}/>
           <Nav/>
         </div>

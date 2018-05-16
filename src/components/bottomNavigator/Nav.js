@@ -21,7 +21,7 @@ const navTabs = [
     text: '物资'
   }, {
     icon: 'user-circle',
-    routeTo: '/settings',
+    routeTo: '/user',
     text: '我的'
   }
 ]

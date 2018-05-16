@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './user.css';
 import Font from 'react-fontawesome';
+import {NavLink} from 'react-router-dom';
 
 const mockdata = {
 
@@ -20,7 +21,7 @@ class User extends Component {
       <div className="user">
         <div className="head">
           <div className="headname">探险者</div>
-          <div>设置</div>
+          <NavLink to="/setting">设置</NavLink>
         </div>
         <div className="body">
         <div className="userinfor">
