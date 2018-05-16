@@ -9,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
   background: white;
+  z-index: 1000;
 }
 
 .navbar .nav-item {

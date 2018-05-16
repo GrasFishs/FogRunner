@@ -1,0 +1,72 @@
+.user {
+    height: 100%;
+    background-color: #000033;
+    position: relative;
+  }
+  
+  .user .head {
+    padding: 5px;
+    height: 6%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000033;
+    color: #fff;
+  }
+
+  .user .head .headname{
+    margin: auto;
+  }
+
+  .user .body{
+    margin: 0 10px;
+    font-size: 1em;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user .body .userinfor{
+    margin:50px 0 10px 0;    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user .body .userinfor .infor{
+    margin: 10px 0 0 0;
+  }
+  
+  .user .body .dayaim{
+    margin: 0 20px;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: white solid 1px;
+  }
+
+  .user .body .title{
+    margin: 10px 20px;
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: white solid 1px;
+  }
+  
+  .user .body .dayaim .dayaimdata{
+    color:#33FFCC;
+    font-size: 2em;
+  }
+
+  .user .body .title .titledata{
+    color:#FFCCFF;
+    font-size: 1em;
+  }

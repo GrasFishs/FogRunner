@@ -5,7 +5,7 @@ import NavItem from './NavItem';
 const navTabs = [
   {
     icon: 'globe',
-    routeTo: '/login',
+    routeTo: '/sport',
     text: '运动'
   }, {
     icon: 'bar-chart',
@@ -17,11 +17,11 @@ const navTabs = [
     text: '活动'
   }, {
     icon: 'smile-o',
-    routeTo: '/login',
+    routeTo: '/award',
     text: '物资'
   }, {
     icon: 'user-circle',
-    routeTo: '/login',
+    routeTo: '/settings',
     text: '我的'
   }
 ]

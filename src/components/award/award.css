@@ -1,0 +1,84 @@
+.award {
+  height: 100%;
+  position: relative;
+}
+
+.award .head {
+  padding: 5px;
+  height: 6%;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #990033;
+  color: #fff;
+}
+
+.award .head .awardword1 {
+  margin: auto;
+}
+
+.award .body .awardpicture {
+  padding: 5px 0 0 0;
+  height: 30%;
+  background: #888888;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.award .body .awardpicture h2 {
+  color: white;
+}
+/* 设置"最近获得"的h3位置 align-self对自身起作用 */
+/* 走马灯显示的文字如果是h3 会被这个设置影响 */
+.award .body .awardpicture h3 {
+  color: white;
+  display: flex;
+  align-self: right;
+}
+
+/* 设置走马灯的区域大小 */
+
+.award .body .awardpicture .ant-carousel {
+  width: 100%;
+  height: 200px;
+  background: #fff;
+}
+
+/* 设置走马灯的大小以及颜色 */
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+  background: #CCCCCC;
+  overflow: hidden;
+}
+
+/* 设置走马灯文字 */
+
+.ant-carousel .slick-slide h2 {
+  color: #fff;
+}
+
+/* 设置显示物品区域 */
+
+.award .body .awardlist {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  color: black;
+}
+
+/* 设置显示物品 网店优惠券....*/
+
+.award .body .awardlist .item {
+  padding: 10px 20px;
+  width: 33.2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
