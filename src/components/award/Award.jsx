@@ -69,7 +69,8 @@ class Award extends Component {
                 <Font
                   name={item.name}
                   style={{
-                  fontSize: '3em'
+                  fontSize: '3em',
+                  color: 'gray'
                 }}/>{item.text}
               </div>
             ))}

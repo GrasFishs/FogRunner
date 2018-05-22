@@ -27,7 +27,7 @@ class Setting extends Component {
     return (
       <div className="setting">
         <nav>
-          <div><Back/></div>
+          <div><Back routeTo="/user"/></div>
           <div>设置</div>
         </nav>
         <div className="body">

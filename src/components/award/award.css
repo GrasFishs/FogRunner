@@ -68,6 +68,7 @@
 .award .body .awardlist {
   padding: 0 20px;
   display: flex;
+  margin: 20px 0;
   flex-wrap: wrap;
   background: #fff;
   color: black;

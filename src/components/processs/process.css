@@ -11,7 +11,6 @@
 }
 
 .process .stat,
-.process .rank,
 .process .distance {
   background: white;
   display: flex;
@@ -25,7 +24,6 @@
 
 .process .stat .right {
   flex: 1;
-  margin: 20px 0;
   padding: 0 10px;
   border-left: 1px solid lightgray;
   display: flex;

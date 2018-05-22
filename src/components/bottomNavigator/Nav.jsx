@@ -28,13 +28,24 @@ const navTabs = [
 class Nav extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      curPos: 0
+    }
   }
+
+  clickHandler = (e) => {
+    for (const key in e) {
+      console.log(`${key}:${e[key]}`)
+    }
+  }
+
+  setClickedColor = (index) => {}
+
   render() {
     return (
       <div className="navbar">
-        {navTabs.map((tab, indx) => (
-          <NavItem routeTo={tab.routeTo} key={indx} icon={tab.icon}>{tab.text}</NavItem>
+        {navTabs.map((tab, index) => (
+          <NavItem routeTo={tab.routeTo} key={index} icon={tab.icon}>{tab.text}</NavItem>
         ))}
       </div>
     )

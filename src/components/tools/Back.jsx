@@ -8,8 +8,9 @@ class Back extends Component {
   }
   render() {
     const ARROW = 'chevron-left';
+    const to = this.props.to || '/';
     return (
-      <Link to="/home" style={{
+      <Link to={to} style={{
         color: 'white'
       }}><Font name={ARROW} style={{
         fontSize: this.props.size
